@@ -1,13 +1,157 @@
-.container{
+nav{
   display: flex;
-  flex-direction: column;
-  width: 250px;
+  align-content: center;
+  height: 70px;
+  width: 100%;
+  background: black;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
 }
-.harom{
-  height: 100px;
-  background: white;
-  border: solid black 1px;
+.menu1{
+  height: 30px;
+  margin: 20px 20px;
+  color: silver;
+  font-size: 30px;
+  text-decoration: none; 
+  font-family: 'Bakbak One', cursive;
+
 }
-.harom:hover{
-  background: #FFFACD;
+
+.headerflex{
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  width: 1300px;
+  background: #DCDCDC;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  position: centre;
+}
+
+img{
+ width: 400px;
+ top-margin: 98px;
+}
+
+#hi{
+  margin: 0 0 0 10px;
+  font-size: 20px;  
+}
+
+#name{
+   margin: 0;
+   font-size: 40px; 
+}
+
+.keptext{
+  position: absolute;
+  top: 385px;
+  left: 70px;
+  margin-top: 0px;  
+  font-family: 'Bakbak One', cursive;
+  color: #DCDCDC;
+}
+
+.section1{
+  display: flex;
+  flex-direction: row;
+  height: 450px;
+  width: 1300px;
+  background: #DCDCDC;
+  margin-top: 30px;
+}
+
+.section2{
+  display: flex;
+  flex-direction: row;
+  height: 650px;
+  width: 1300px;
+  background: #DCDCDC;
+  margin-top: 30px;
+}
+
+.section3{
+  display: flex;
+  flex-direction: row;
+  height: 750px;
+  width: 1300px;
+  background: #DCDCDC;
+  margin-top: 30px;
+}
+
+.large{
+  line-height: 200%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  color: #454545;
+  }
+
+ul{list-style-type: square;}
+
+.quote{
+  text-align: right;
+  font-family: 'Bakbak One', cursive;
+  font-style: italic;
+  font-size: 16px;
+  color: white;
+  height: auto;
+  width: 330px;
+  padding: 75px 30px 30px 40px;
+  line-height: 220%; 
+  background: grey;
+  border-top: solid 10px grey;
+}
+
+.scripts{
+  font-family: 'Ubuntu', sans-serif;
+  color: #454545;
+  margin: 0 50px 50px 65px;
+  padding-left: 50px;
+  width: 700px;
+  
+}
+
+#analitical{
+  margin-top: 80px;
+}
+
+#notable{
+  line-height: 300%;
+  letter-spacing: 0.1em;
+  font-family: 'Bakbak One', cursive;
+
+}
+#text3{
+  font-weight: 500;
+}
+
+.text2{
+  font-family: 'Josefin Sans', sans;
+  font-size: 15px;
+  color: #454545;
+  line-height: 150%;
+  margin-left: 50px;
+}
+
+.text4{
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #454545;
+  margin-left: 50px;
+  line-height: 20%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#during{
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.apprentice{
+  margin-bottom: 50px;
 }
